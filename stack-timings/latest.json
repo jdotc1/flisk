@@ -1,0 +1,922 @@
+{
+	"schema": 1,
+	"generated": "2026-11-20T01:46:04.518Z",
+	"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+	"trigger": "workflow_run",
+	"runner": "ubuntu-latest",
+	"runUrl": "https://github.com/jdotc1/flisk/actions/runs/44654623086",
+	"metrics": [
+		"scaffold",
+		"listed",
+		"cold_start",
+		"warm_start",
+		"hot_reload"
+	],
+	"groups": [
+		{
+			"id": "languages",
+			"title": "Backend languages"
+		},
+		{
+			"id": "http",
+			"title": "HTTP frameworks (Bun)"
+		},
+		{
+			"id": "frontend",
+			"title": "Frontend frameworks"
+		},
+		{
+			"id": "types",
+			"title": "Resource types"
+		},
+		{
+			"id": "orm",
+			"title": "ORMs"
+		},
+		{
+			"id": "byo",
+			"title": "Bring your own container"
+		},
+		{
+			"id": "infra",
+			"title": "Infrastructure services"
+		}
+	],
+	"stacks": [
+		{
+			"id": "bun",
+			"name": "bun",
+			"group": "languages",
+			"axis": "language",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 85,
+				"listed": 304,
+				"cold_start": 38744,
+				"warm_start": 5091,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 85,
+					"listed": 304,
+					"cold_start": 38744,
+					"warm_start": 5091,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "python",
+			"name": "python",
+			"group": "languages",
+			"axis": "language",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 108,
+				"listed": 371,
+				"cold_start": 39377,
+				"warm_start": 7400,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 108,
+					"listed": 371,
+					"cold_start": 39377,
+					"warm_start": 7400,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "go",
+			"name": "go",
+			"group": "languages",
+			"axis": "language",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 105,
+				"listed": 378,
+				"cold_start": 38061,
+				"warm_start": 5030,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 105,
+					"listed": 378,
+					"cold_start": 38061,
+					"warm_start": 5030,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "rust",
+			"name": "rust",
+			"group": "languages",
+			"axis": "language",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 103,
+				"listed": 357,
+				"cold_start": 51162,
+				"warm_start": 5598,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 103,
+					"listed": 357,
+					"cold_start": 51162,
+					"warm_start": 5598,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "node",
+			"name": "node",
+			"group": "languages",
+			"axis": "language",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 139,
+				"listed": 419,
+				"cold_start": 28763,
+				"warm_start": 5397,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 139,
+					"listed": 419,
+					"cold_start": 28763,
+					"warm_start": 5397,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "bun",
+			"name": "hono",
+			"group": "http",
+			"axis": "httpFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 85,
+				"listed": 304,
+				"cold_start": 38744,
+				"warm_start": 5091,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 85,
+					"listed": 304,
+					"cold_start": 38744,
+					"warm_start": 5091,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "bun-express",
+			"name": "express",
+			"group": "http",
+			"axis": "httpFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 93,
+				"listed": 297,
+				"cold_start": 30570,
+				"warm_start": 4991,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 93,
+					"listed": 297,
+					"cold_start": 30570,
+					"warm_start": 4991,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "bun-elysia",
+			"name": "elysia",
+			"group": "http",
+			"axis": "httpFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 135,
+				"listed": 460,
+				"cold_start": 34700,
+				"warm_start": 7851,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 135,
+					"listed": 460,
+					"cold_start": 34700,
+					"warm_start": 7851,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "bun-fastify",
+			"name": "fastify",
+			"group": "http",
+			"axis": "httpFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 100,
+				"listed": 254,
+				"cold_start": 33096,
+				"warm_start": 5002,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 100,
+					"listed": 254,
+					"cold_start": 33096,
+					"warm_start": 5002,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "bun-h3",
+			"name": "h3",
+			"group": "http",
+			"axis": "httpFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 140,
+				"listed": 421,
+				"cold_start": 32883,
+				"warm_start": 8506,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 140,
+					"listed": 421,
+					"cold_start": 32883,
+					"warm_start": 8506,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "bun-koa",
+			"name": "koa",
+			"group": "http",
+			"axis": "httpFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 103,
+				"listed": 368,
+				"cold_start": 38192,
+				"warm_start": 7175,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 103,
+					"listed": 368,
+					"cold_start": 38192,
+					"warm_start": 7175,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "bun-nestjs",
+			"name": "nestjs",
+			"group": "http",
+			"axis": "httpFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 105,
+				"listed": 354,
+				"cold_start": 43700,
+				"warm_start": 7283,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 105,
+					"listed": 354,
+					"cold_start": 43700,
+					"warm_start": 7283,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "frontend-react",
+			"name": "react",
+			"group": "frontend",
+			"axis": "frontendFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 81,
+				"listed": 305,
+				"cold_start": 44099,
+				"warm_start": 4989,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 81,
+					"listed": 305,
+					"cold_start": 44099,
+					"warm_start": 4989,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "frontend-vue",
+			"name": "vue",
+			"group": "frontend",
+			"axis": "frontendFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 159,
+				"listed": 647,
+				"cold_start": 34943,
+				"warm_start": 8431,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 159,
+					"listed": 647,
+					"cold_start": 34943,
+					"warm_start": 8431,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "frontend-svelte",
+			"name": "svelte",
+			"group": "frontend",
+			"axis": "frontendFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 110,
+				"listed": 346,
+				"cold_start": 36415,
+				"warm_start": 7309,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 110,
+					"listed": 346,
+					"cold_start": 36415,
+					"warm_start": 7309,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "frontend-preact",
+			"name": "preact",
+			"group": "frontend",
+			"axis": "frontendFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 113,
+				"listed": 382,
+				"cold_start": 47983,
+				"warm_start": 7271,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 113,
+					"listed": 382,
+					"cold_start": 47983,
+					"warm_start": 7271,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "frontend-lit",
+			"name": "lit",
+			"group": "frontend",
+			"axis": "frontendFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 144,
+				"listed": 485,
+				"cold_start": 40649,
+				"warm_start": 7849,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 144,
+					"listed": 485,
+					"cold_start": 40649,
+					"warm_start": 7849,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "frontend-solid",
+			"name": "solid",
+			"group": "frontend",
+			"axis": "frontendFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 90,
+				"listed": 352,
+				"cold_start": 42520,
+				"warm_start": 7337,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 90,
+					"listed": 352,
+					"cold_start": 42520,
+					"warm_start": 7337,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "frontend-qwik",
+			"name": "qwik",
+			"group": "frontend",
+			"axis": "frontendFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 136,
+				"listed": 465,
+				"cold_start": 28521,
+				"warm_start": 7792,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 136,
+					"listed": 465,
+					"cold_start": 28521,
+					"warm_start": 7792,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "frontend-vanilla",
+			"name": "vanilla",
+			"group": "frontend",
+			"axis": "frontendFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 99,
+				"listed": 368,
+				"cold_start": 40020,
+				"warm_start": 7392,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 99,
+					"listed": 368,
+					"cold_start": 40020,
+					"warm_start": 7392,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "frontend-tanstack-router",
+			"name": "tanstack-router",
+			"group": "frontend",
+			"axis": "frontendFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 88,
+				"listed": 320,
+				"cold_start": 37880,
+				"warm_start": 5048,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 88,
+					"listed": 320,
+					"cold_start": 37880,
+					"warm_start": 5048,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "frontend-next",
+			"name": "next",
+			"group": "frontend",
+			"axis": "frontendFramework",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 5087,
+				"listed": 435,
+				"cold_start": 97134,
+				"warm_start": 20663,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 5087,
+					"listed": 435,
+					"cold_start": 97134,
+					"warm_start": 20663,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "library",
+			"name": "library",
+			"group": "types",
+			"axis": "appType",
+			"status": "no-data",
+			"metrics": {
+				"scaffold": null,
+				"listed": null,
+				"cold_start": null,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": []
+		},
+		{
+			"id": "sdk",
+			"name": "sdk",
+			"group": "types",
+			"axis": "appType",
+			"status": "no-data",
+			"metrics": {
+				"scaffold": null,
+				"listed": null,
+				"cold_start": null,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": []
+		},
+		{
+			"id": "worker",
+			"name": "worker",
+			"group": "types",
+			"axis": "appType",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 104,
+				"listed": null,
+				"cold_start": 45271,
+				"warm_start": 6115,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 104,
+					"listed": null,
+					"cold_start": 45271,
+					"warm_start": 6115,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "migrator",
+			"name": "migrator",
+			"group": "types",
+			"axis": "appType",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 90,
+				"listed": null,
+				"cold_start": 73543,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 90,
+					"listed": null,
+					"cold_start": 73543,
+					"warm_start": null,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "mcp",
+			"name": "mcp",
+			"group": "types",
+			"axis": "appType",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 133,
+				"listed": 540,
+				"cold_start": 44728,
+				"warm_start": 7820,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 133,
+					"listed": 540,
+					"cold_start": 44728,
+					"warm_start": 7820,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "agent",
+			"name": "agent",
+			"group": "types",
+			"axis": "appType",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 104,
+				"listed": 374,
+				"cold_start": 40727,
+				"warm_start": 7429,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 104,
+					"listed": 374,
+					"cold_start": 40727,
+					"warm_start": 7429,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "database",
+			"name": "database",
+			"group": "types",
+			"axis": "appType",
+			"status": "measured",
+			"metrics": {
+				"scaffold": null,
+				"listed": null,
+				"cold_start": 8244,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": null,
+					"listed": null,
+					"cold_start": 8244,
+					"warm_start": null,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "prisma",
+			"name": "prisma",
+			"group": "orm",
+			"axis": "orm",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 106,
+				"listed": 372,
+				"cold_start": 91520,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 106,
+					"listed": 372,
+					"cold_start": 91520,
+					"warm_start": null,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "drizzle",
+			"name": "drizzle",
+			"group": "orm",
+			"axis": "orm",
+			"status": "measured",
+			"metrics": {
+				"scaffold": 86,
+				"listed": 327,
+				"cold_start": 44025,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": [
+				{
+					"date": "2026-11-20",
+					"commit": "b6bd7108d92e9cf6ac26d2e44ccbc256de1f73be",
+					"scaffold": 86,
+					"listed": 327,
+					"cold_start": 44025,
+					"warm_start": null,
+					"hot_reload": null
+				}
+			]
+		},
+		{
+			"id": "bring-your-own-flisk",
+			"name": "byo",
+			"group": "byo",
+			"axis": "byoVariant",
+			"status": "coming-soon",
+			"metrics": {
+				"scaffold": null,
+				"listed": null,
+				"cold_start": null,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": []
+		},
+		{
+			"id": "bring-your-own-job",
+			"name": "byo-jobs",
+			"group": "byo",
+			"axis": "byoVariant",
+			"status": "coming-soon",
+			"metrics": {
+				"scaffold": null,
+				"listed": null,
+				"cold_start": null,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": []
+		},
+		{
+			"id": "bring-your-own-pair",
+			"name": "byo-pair",
+			"group": "byo",
+			"axis": "byoVariant",
+			"status": "coming-soon",
+			"metrics": {
+				"scaffold": null,
+				"listed": null,
+				"cold_start": null,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": []
+		},
+		{
+			"id": "infraService:monitoring",
+			"name": "monitoring",
+			"group": "infra",
+			"axis": "infraService",
+			"status": "coming-soon",
+			"metrics": {
+				"scaffold": null,
+				"listed": null,
+				"cold_start": null,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": []
+		},
+		{
+			"id": "infraService:elk",
+			"name": "elk",
+			"group": "infra",
+			"axis": "infraService",
+			"status": "coming-soon",
+			"metrics": {
+				"scaffold": null,
+				"listed": null,
+				"cold_start": null,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": []
+		},
+		{
+			"id": "infraService:debezium",
+			"name": "debezium",
+			"group": "infra",
+			"axis": "infraService",
+			"status": "coming-soon",
+			"metrics": {
+				"scaffold": null,
+				"listed": null,
+				"cold_start": null,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": []
+		},
+		{
+			"id": "infraService:golden_image",
+			"name": "golden_image",
+			"group": "infra",
+			"axis": "infraService",
+			"status": "coming-soon",
+			"metrics": {
+				"scaffold": null,
+				"listed": null,
+				"cold_start": null,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": []
+		},
+		{
+			"id": "infraService:verdaccio",
+			"name": "verdaccio",
+			"group": "infra",
+			"axis": "infraService",
+			"status": "coming-soon",
+			"metrics": {
+				"scaffold": null,
+				"listed": null,
+				"cold_start": null,
+				"warm_start": null,
+				"hot_reload": null
+			},
+			"history": []
+		}
+	]
+}
